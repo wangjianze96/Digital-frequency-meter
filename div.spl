@@ -1,0 +1,8 @@
+[Inputs]
+clk_in
+[Outputs]
+clk_out1
+clk_out10
+clk_out100
+clk_out1k
+[BiDir]

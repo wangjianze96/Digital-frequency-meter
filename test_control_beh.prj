@@ -1,0 +1,2 @@
+vhdl work "../Digital_Counter/control.vhd"
+vhdl work "test_control.vhd"

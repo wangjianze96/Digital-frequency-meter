@@ -1,0 +1,24 @@
+
+
+NET "clkin" LOC = N9;
+NET "dp" LOC = C9;
+NET "led[0]" LOC = A9;
+NET "led[1]" LOC = B10;
+NET "led[2]" LOC = A10;
+NET "led[3]" LOC = C10;
+NET "led[4]" LOC = C11;
+NET "led[5]" LOC = A11;
+NET "led[6]" LOC = B12;
+NET "se1" LOC = L5;
+NET "se10" LOC = N5;
+NET "se100" LOC = M7;
+NET "seg[0]" LOC = N13;
+NET "seg[1]" LOC = M13;
+NET "seg[2]" LOC = L13;
+NET "seg[3]" LOC = K13;
+NET "seg[4]" LOC = J13;
+NET "seg[5]" LOC = J12;
+NET "seg[6]" LOC = H13;
+NET "seg[7]" LOC = G13;
+NET "testsignal" LOC = C16;
+NET "testsignal" CLOCK_DEDICATED_ROUTE = FALSE;

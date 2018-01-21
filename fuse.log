@@ -1,0 +1,23 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o H:/026wjz/DIG_FREQUENCY_CHECKER/test_control_isim_beh.exe -prj H:/026wjz/DIG_FREQUENCY_CHECKER/test_control_beh.prj work.test_control 
+ISim O.87xd (signature 0x2f00eba5)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "H:/026wjz/DIG_FREQUENCY_CHECKER/../Digital_Counter/control.vhd" into library work
+Parsing VHDL file "H:/026wjz/DIG_FREQUENCY_CHECKER/test_control.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 106148 KB
+Fuse CPU Usage: 218 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity control [control_default]
+Compiling architecture behavior of entity test_control
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Built simulation executable H:/026wjz/DIG_FREQUENCY_CHECKER/test_control_isim_beh.exe
+Fuse Memory Usage: 121168 KB
+Fuse CPU Usage: 327 ms

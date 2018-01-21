@@ -1,0 +1,3 @@
+vhdtdtfi -prj DIG_FREQUENCY_CHECKER -o H:/026wjz/DIG_FREQUENCY_CHECKER/div.vhi -module div -template C:/Xilinx/13.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../Digital_Counter/fdiv.vhd -lib work ../Digital_Counter/div.vhd 
+vhdtdtfi -lib work ../Digital_Counter/fdiv.vhd -lib work ../Digital_Counter/div.vhd -prj DIG_FREQUENCY_CHECKER -o div.spl -module div -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a div.spl H:/026wjz/DIG_FREQUENCY_CHECKER/div.sym 

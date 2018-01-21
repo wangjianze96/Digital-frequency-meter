@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "H:/026wjz/DIG_FREQUENCY_CHECKER/test_control_isim_beh.exe" -prj "H:/026wjz/DIG_FREQUENCY_CHECKER/test_control_beh.prj" "work.test_control" 

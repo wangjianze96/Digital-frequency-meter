@@ -1,0 +1,17 @@
+[Inputs]
+f1khz
+q_over
+dp1
+dp2
+dp3
+=freq_var0[3:0]=
+=freq_var1[3:0]=
+=freq_var2[3:0]=
+=freq_var3[3:0]=
+=freq_var4[3:0]=
+=freq_var5[3:0]=
+[Outputs]
+dp
+=dig_led[6:0]=
+=seg[7:0]=
+[BiDir]

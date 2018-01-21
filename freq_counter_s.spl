@@ -1,0 +1,13 @@
+[Inputs]
+test_signal
+clear
+count_en
+[Outputs]
+over
+=resualt1[3:0]=
+=resualt2[3:0]=
+=resualt3[3:0]=
+=resualt4[3:0]=
+=resualt5[3:0]=
+=resualt6[3:0]=
+[BiDir]

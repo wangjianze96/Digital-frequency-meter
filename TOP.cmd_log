@@ -1,0 +1,35 @@
+xst -intstyle ise -ifn "H:/026wjz/DIG_FREQUENCY_CHECKER/TOP.xst" -ofn "H:/026wjz/DIG_FREQUENCY_CHECKER/TOP.syr" 
+xst -intstyle ise -ifn "H:/026wjz/DIG_FREQUENCY_CHECKER/TOP.xst" -ofn "H:/026wjz/DIG_FREQUENCY_CHECKER/TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP.ucf -p xc3s200a-ft256-5 TOP.ngc TOP.ngd  
+map -intstyle ise -p xc3s200a-ft256-5 -cm area -ir off -pr off -c 100 -o TOP_map.ncd TOP.ngd TOP.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_map.ncd TOP.ncd TOP.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP.ucf -p xc3s200a-ft256-5 TOP.ngc TOP.ngd  
+map -intstyle ise -p xc3s200a-ft256-5 -cm area -ir off -pr off -c 100 -o TOP_map.ncd TOP.ngd TOP.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_map.ncd TOP.ncd TOP.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TOP.twx TOP.ncd -o TOP.twr TOP.pcf -ucf TOP.ucf 
+bitgen -intstyle ise -f TOP.ut TOP.ncd 
+bitgen -intstyle ise -f TOP.ut TOP.ncd 
+xst -intstyle ise -ifn "H:/026wjz/DIG_FREQUENCY_CHECKER/TOP.xst" -ofn "H:/026wjz/DIG_FREQUENCY_CHECKER/TOP.syr" 
+xst -intstyle ise -ifn "H:/026wjz/DIG_FREQUENCY_CHECKER/TOP.xst" -ofn "H:/026wjz/DIG_FREQUENCY_CHECKER/TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP.ucf -p xc3s200a-ft256-5 TOP.ngc TOP.ngd  
+map -intstyle ise -p xc3s200a-ft256-5 -cm area -ir off -pr off -c 100 -o TOP_map.ncd TOP.ngd TOP.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_map.ncd TOP.ncd TOP.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TOP.twx TOP.ncd -o TOP.twr TOP.pcf -ucf TOP.ucf 
+bitgen -intstyle ise -f TOP.ut TOP.ncd 
+bitgen -intstyle ise -f TOP.ut TOP.ncd 
+xst -intstyle ise -ifn "H:/026wjz/DIG_FREQUENCY_CHECKER/TOP.xst" -ofn "H:/026wjz/DIG_FREQUENCY_CHECKER/TOP.syr" 
+xst -intstyle ise -ifn "H:/026wjz/DIG_FREQUENCY_CHECKER/TOP.xst" -ofn "H:/026wjz/DIG_FREQUENCY_CHECKER/TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP.ucf -p xc3s200a-ft256-5 TOP.ngc TOP.ngd  
+map -intstyle ise -p xc3s200a-ft256-5 -cm area -ir off -pr off -c 100 -o TOP_map.ncd TOP.ngd TOP.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_map.ncd TOP.ncd TOP.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TOP.twx TOP.ncd -o TOP.twr TOP.pcf -ucf TOP.ucf 
+bitgen -intstyle ise -f TOP.ut TOP.ncd 
+bitgen -intstyle ise -f TOP.ut TOP.ncd 
+bitgen -intstyle ise -f TOP.ut TOP.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOP.ucf -p xc3s200a-ft256-5 TOP.ngc TOP.ngd  
+map -intstyle ise -p xc3s200a-ft256-5 -cm area -ir off -pr off -c 100 -o TOP_map.ncd TOP.ngd TOP.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_map.ncd TOP.ncd TOP.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TOP.twx TOP.ncd -o TOP.twr TOP.pcf -ucf TOP.ucf 
+bitgen -intstyle ise -f TOP.ut TOP.ncd 
+vhdtdtfi -prj DIG_FREQUENCY_CHECKER -o H:/026wjz/DIG_FREQUENCY_CHECKER/TOP.vhi -module TOP -template C:/Xilinx/13.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../Digital_Counter/freq_counter.vhd -lib work ../Digital_Counter/fdiv.vhd -lib work ../Digital_Counter/sele.vhd -lib work ../Digital_Counter/latch.vhd -lib work ../Digital_Counter/freq_counter_s.vhd -lib work ../Digital_Counter/div.vhd -lib work ../Digital_Counter/dig_led_display.vhd -lib work ../Digital_Counter/control.vhd -lib work TOP.vhd 
+bitgen -intstyle ise -f TOP.ut TOP.ncd 

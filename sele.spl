@@ -1,0 +1,13 @@
+[Inputs]
+se1
+se10
+se100
+f1hz
+f10hz
+f100hz
+[Outputs]
+fref
+dp1
+dp2
+dp3
+[BiDir]
