@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# PlanAhead v13.4
+# Build 157570 by hdbuild on Fri Dec 16 12:55:36 MST 2011
+# Start of session at: Thu Sep 14 15:27:45 2017
+# Process ID: 4204
+# Log file: H:/026wjz/DIG_FREQUENCY_CHECKER/planAhead_run_1/planAhead.log
+# Journal file: H:/026wjz/DIG_FREQUENCY_CHECKER/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source H:/026wjz/DIG_FREQUENCY_CHECKER/pa.fromHdl.tcl
+startgroup
+set_property loc IPAD186 [get_ports se1]
+endgroup
+save_design
+exit
+stop_gui

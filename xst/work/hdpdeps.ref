@@ -1,0 +1,56 @@
+V3 35
+FL H:/026wjz/Digital_Counter/control.vhd 2017/09/09.21:41:00 O.87xd
+EN work/control 1505015623 FL H:/026wjz/Digital_Counter/control.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/control/Behavioral 1505015624 \
+      FL H:/026wjz/Digital_Counter/control.vhd EN work/control 1505015623
+FL H:/026wjz/Digital_Counter/dig_led_display.vhd 2017/09/09.17:43:30 O.87xd
+EN work/dig_led_display 1505015621 \
+      FL H:/026wjz/Digital_Counter/dig_led_display.vhd PB ieee/std_logic_1164 1325952872 \
+      PB ieee/std_logic_arith 1325952873 PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/dig_led_display/Behavioral 1505015622 \
+      FL H:/026wjz/Digital_Counter/dig_led_display.vhd EN work/dig_led_display 1505015621
+FL H:/026wjz/Digital_Counter/div.vhd 2017/09/07.16:21:48 O.87xd
+EN work/div 1505015619 FL H:/026wjz/Digital_Counter/div.vhd PB ieee/std_logic_1164 1325952872 \
+      PB ieee/std_logic_arith 1325952873 PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/div/Behavioral 1505015620 \
+      FL H:/026wjz/Digital_Counter/div.vhd EN work/div 1505015619 CP fdiv
+FL H:/026wjz/Digital_Counter/fdiv.vhd 2017/09/08.19:30:06 O.87xd
+EN work/fdiv 1505015609 FL H:/026wjz/Digital_Counter/fdiv.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/fdiv/Behavioral 1505015610 \
+      FL H:/026wjz/Digital_Counter/fdiv.vhd EN work/fdiv 1505015609
+FL H:/026wjz/Digital_Counter/freq_counter.vhd 2017/09/08.20:03:52 O.87xd
+EN work/freq_counter 1505015611 FL H:/026wjz/Digital_Counter/freq_counter.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/freq_counter/Behavioral 1505015612 \
+      FL H:/026wjz/Digital_Counter/freq_counter.vhd EN work/freq_counter 1505015611
+FL H:/026wjz/Digital_Counter/freq_counter_s.vhd 2017/09/08.20:21:58 O.87xd
+EN work/freq_counter_s 1505015617 FL H:/026wjz/Digital_Counter/freq_counter_s.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/freq_counter_s/Behavioral 1505015618 \
+      FL H:/026wjz/Digital_Counter/freq_counter_s.vhd EN work/freq_counter_s 1505015617 \
+      CP freq_counter
+FL H:/026wjz/Digital_Counter/latch.vhd 2017/09/09.11:27:32 O.87xd
+EN work/latch 1505015615 FL H:/026wjz/Digital_Counter/latch.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/latch/Behavioral 1505015616 \
+      FL H:/026wjz/Digital_Counter/latch.vhd EN work/latch 1505015615
+FL H:/026wjz/Digital_Counter/sele.vhd 2017/09/07.16:33:22 O.87xd
+EN work/sele 1505015613 FL H:/026wjz/Digital_Counter/sele.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/sele/Behavioral 1505015614 \
+      FL H:/026wjz/Digital_Counter/sele.vhd EN work/sele 1505015613
+FL H:/026wjz/DIG_FREQUENCY_CHECKER/TOP.vhd 2017/09/09.20:19:08 O.87xd
+EN work/TOP 1505015625 FL H:/026wjz/DIG_FREQUENCY_CHECKER/TOP.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/TOP/Behavioral 1505015626 \
+      FL H:/026wjz/DIG_FREQUENCY_CHECKER/TOP.vhd EN work/TOP 1505015625 CP sele \
+      CP latch CP freq_counter_s CP div CP dig_led_display CP control

@@ -1,0 +1,90 @@
+
+****** PlanAhead v13.4
+  **** Build 157570 by hdbuild on Fri Dec 16 12:55:36 MST 2011
+    ** Copyright 1986-1999, 2001-2011 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common-78] Attempting to get a license: PlanAhead
+INFO: [Common-82] Got a license: PlanAhead
+INFO: [Device-25] Loading parts and site information from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts\arch.xmlParsing RTL primitives file [C:/Xilinx/13.4/ISE_DS/PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/13.4/ISE_DS/PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+start_gui
+starting gui ...
+source H:/026wjz/DIG_FREQUENCY_CHECKER/pa.fromHdl.tcl
+# create_project -name DIG_FREQUENCY_CHECKER -dir "H:/026wjz/DIG_FREQUENCY_CHECKER/planAhead_run_1" -part xc3s200aft256-5
+Parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\verilog.xml].
+Finished parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\verilog.xml].
+Parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\vhdl.xml].
+Finished parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\vhdl.xml].
+Parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\ucf.xml].
+Finished parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\ucf.xml].
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "TOP.ucf" [current_fileset -constrset]
+Adding file 'H:\026wjz\DIG_FREQUENCY_CHECKER\TOP.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {../Digital_Counter/freq_counter.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../Digital_Counter/fdiv.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../Digital_Counter/sele.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../Digital_Counter/latch.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../Digital_Counter/freq_counter_s.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../Digital_Counter/div.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../Digital_Counter/dig_led_display.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../Digital_Counter/control.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {TOP.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top TOP $srcset
+# add_files [list {TOP.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s200aft256-5
+INFO: [PlanAhead-58] Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/13.4/ISE_DS/PlanAhead\parts\xilinx\rtl\lib\synplify\synattr.vhd" into library synplify
+Parsing VHDL file "C:/Xilinx/13.4/ISE_DS/PlanAhead\parts\xilinx\rtl\lib\synplify\synattr.vhd" into library synplify
+Parsing VHDL file "H:\026wjz\Digital_Counter\freq_counter.vhd" into library work
+Parsing VHDL file "H:\026wjz\Digital_Counter\fdiv.vhd" into library work
+Parsing VHDL file "H:\026wjz\Digital_Counter\sele.vhd" into library work
+Parsing VHDL file "H:\026wjz\Digital_Counter\latch.vhd" into library work
+Parsing VHDL file "H:\026wjz\Digital_Counter\freq_counter_s.vhd" into library work
+Parsing VHDL file "H:\026wjz\Digital_Counter\div.vhd" into library work
+Parsing VHDL file "H:\026wjz\Digital_Counter\dig_led_display.vhd" into library work
+Parsing VHDL file "H:\026wjz\Digital_Counter\control.vhd" into library work
+Parsing VHDL file "H:\026wjz\DIG_FREQUENCY_CHECKER\TOP.vhd" into library work
+INFO: [PlanAhead-430] Reading macro library C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3a/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3a/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3a/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3a/spartan3a/xc3s200a/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3a/spartan3a/xc3s200a/ClockBuffers.xml
+Loading package from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3a/spartan3a/xc3s200a/ft256/Package.xml
+Loading io standards from C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3a/IOStandards.xml
+INFO: [Device-19] Loading pkg sso from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3a/spartan3a/xc3s200a/ft256/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3a/drc.xml
+INFO: [Timing-77] Reading timing library C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3a/spartan3a/spartan3a-5.lib.
+INFO: [Timing-34] Done reading timing library C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3a/spartan3a/spartan3a-5.lib.
+Parsing UCF File [H:\026wjz\DIG_FREQUENCY_CHECKER\TOP.ucf]
+Finished Parsing UCF File [H:\026wjz\DIG_FREQUENCY_CHECKER\TOP.ucf]
+INFO: [PlanAhead-566] Unisim Transformation Summary:
+No Unisim elements were transformed.startgroup
+startgroup
+set_property loc IPAD186 [get_ports se1]
+set_property loc IPAD186 [get_ports se1]
+endgroup
+endgroup
+save_design
+exit
+stop_gui
+INFO: [PlanAhead-261] Exiting PlanAhead...
+INFO: [Common-83] Releasing license: PlanAhead
